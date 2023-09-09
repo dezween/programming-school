@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа программирования YtYt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="header__overlay" id="headerOverlay"></div>
+
+
+
+    <div class="main-container">
+        <header class="header">
+            <img src="img/header-bg.png" alt="" class="header__bg">
+            <nav class="menu">
+                <input type="checkbox" class="menu__toggler" id="menu__toggler" checked>
+                <div class="menu__container container">
+                    <div class="menu__wrapper">
+                        <a href="" class="menu__logo-link">
+                            <img src="img/logo.png" alt="иконка сайта" class="menu__logo">
+                        </a>
+                        <a href="#technologies" class="menu__link-desktop">Чему вы научитесь</a>
+                        <a href="#education" class="menu__link-desktop">Процесс обучения</a>
+                        <a href="#cost" class="menu__link-desktop">Стоимость</a>
+                        <a href="#contacts" class="menu__link-desktop">Контакты</a>
+                    </div>
+                    <div class="btn__wrapper">
+                        <a href="#register" class="menu__register">Регистрация</a>
+                        <button class="menu__login-btn">
+                            <img src="img/arrow.png" alt="" class="menu__login-btn-img">
+                            <span class="menu__login-btn-text">Войти</span>
+                        </button>
+                    </div>
+                    <button class="menu__burger-button">
+                        <div class="menu__center-line"></div>
+                    </button>
+                </div>
+                <div class="menu__items">
+                    <div class="menu__items-top">
+                        <a href="#technologies" class="menu__link">Чему вы научитесь</a>
+                        <a href="#education" class="menu__link">Процесс обучения</a>
+                        <a href="#cost" class="menu__link">Стоимость</a>
+                        <a href="#contacts" class="menu__link">Контакты</a>
+                        <a href="#register" class="menu__link">Регистрация</a>
+                    </div>
+
+
+                    <div class="menu__items-bottom">
+                        <button class="menu__login-btn menu__items-btn">
+                            <img src="img/arrow.png" alt="" class="menu__login-btn-img">
+                            <span class="menu__login-btn-text">Войти</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__wrapper">
+                <div class="container">
+                    <div class="header__content">
+                        <h1 class="header__title section__title">
+                            Школа <br class="header__br">
+                            <span class="header__bracket"> { </span> <span class="header_italic-text"> программирования
+                            </span> <span class="header__bracket"> }
+                            </span> <br>
+                            для тех, кому нужны <br>
+                            реальные навыки, <br>
+                            а не просто сертификат
+                        </h1>
+                        <hr class="header__line">
+                        <p class="header__text section__text">Пройдите тестирование, чтобы получить <br> доступ к
+                            бесплатным вводным
+                            урокам</p>
+                        <button class="section__button">
+                            <span class="section__button-text">Пройти тестирование</span>
+                            <img src="img/arrow3.png" alt="" class="section__button-img">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="technologies" id="technologies">
+                <div class="container">
+
+                    <div class="technologies__content">
+                        <h2 class="technologies__title seciton__title">Какие технологии <br class="technologies__br"> вы
+                            изучите:</h2>
+                        <div class="technologies__content-wrapper">
+                            <img src="img/technologies-bg-desktop.png" alt="" class="technologies__bg">
+                            <div class="technologies__wrapper">
+                                <p class="technologies__text technologies__text-1">Язык программирования Python</p>
+                                <p class="technologies__text technologies__text-2">Сети</p>
+                                <p class="technologies__text technologies__text-3">Базы данных</p>
+                                <p class="technologies__text technologies__text-4">Фреймворки Flask и Django</p>
+                                <p class="technologies__text technologies__text-5">Отладка и тестирование</p>
+                                <p class="technologies__text technologies__text-6">Docker</p>
+                                <p class="technologies__text technologies__text-7">Git</p>
+                                <p class="technologies__bottom-text">Это необходимый минимум для современного
+                                    backend-разработчика</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <div class="container">
+
+                    <div class="education__content">
+                        <h2 class="education__title seciton__title">Обучение в YtYt – это <br> удобно и результативно
+                        </h2>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img1.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Огромное количество практики</h3>
+                            <p class="section__text education__text">Более 500 самостоятельных заданий и 20 полноценных
+                                больших проектов</p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img2.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Прямая связь
+                                с опытными программистами</h3>
+                            <p class="section__text education__text">Задавайте вопросы и отправляйте свой код на
+                                проверку</p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img3.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Простое и понятное изложение</h3>
+                            <p class="section__text education__text">Вместо заумных терминов – примеры из реального мира
+                            </p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img4.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Гибкий график занятий</h3>
+                            <p class="section__text education__text">Учитесь в любое время и в удобном для вас темпе</p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img5.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Современные методики обучения</h3>
+                            <p class="section__text education__text">Спиральное обучение: на каждом витке вы узнаете
+                                что-то новое об уже знакомых вещах</p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img6.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Гибкая оплата частями</h3>
+                            <p class="section__text education__text">Платите только за тот материал, который изучаете
+                                прямо сейчас, а не за весь курс сразу</p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img7.png" alt="" class="education__img">
+                            <h3 class="education__card-title">Быстрый и легкий возврат</h3>
+                            <p class="section__text education__text">Если передумаете учиться – вернем деньги за 3
+                                рабочих дня</p>
+                        </div>
+                        <div class="education__card">
+                            <img src="img/3rd-section-img7.png" alt="" class="education__img">
+                            <div class="education__card-wrapper">
+                                <h3 class="education__card-title">Быстрый и легкий возврат</h3>
+                                <p class="section__text education__text">Если передумаете учиться – вернем деньги за 3
+                                    рабочих дня</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="desktop__content-wrapper">
+                <section class="video">
+                    <div class="container video__container">
+                        <div class="video__content">
+                            <h2 class="video__title section__title">Как происходит <br class="video__line"> обучение на
+                                YtYt?</h2>
+                            <p class="video__text section__text">Обучение должно быть комфортным. Поэтому мы разработали
+                                собственную
+                                платформу, на которой вы сможете не только изучать теорию, но и запускать готовые
+                                примеры и
+                                даже писать свой собственный код.
+                            </p>
+                            <div class="video__frame">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/T92-OL6e0tU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="facts">
+                    <div class="container">
+                        <div class="facts__content">
+                            <div class="facts__card">
+                                <h2 class="facts__number">01</h2>
+                                <h2 class="section__title facts__title">Весь материал разбит на <br class="facts__line">
+                                    небольшие уроки</h2>
+                                <p class="facts__text">В каждом уроке вы будете не только узнавать что-то новое, но и
+                                    выполнять интересные практические задания. </p>
+                                <hr class="facts__line">
+                            </div>
+                            <div class="facts__card">
+                                <h2 class="facts__number">02</h2>
+                                <h2 class="section__title facts__title">500 самых разных <br> программ</h2>
+                                <p class="facts__text">От простого калькулятора ипотеки до мощного веб-приложения,
+                                    размещенного на сервере и доступного из любой точки мира</p>
+                                <hr class="facts__line">
+                            </div>
+                            <div class="facts__card">
+                                <h2 class="facts__number">03</h2>
+                                <h2 class="section__title facts__title">Учитесь в комфортном <br> темпе</h2>
+                                <p class="facts__text">От 30 минут до нескольких часов
+                                    в день. Изучать теорию можно даже
+                                    с мобильного телефона. Например, пока вы едете на работу.</p>
+                                <hr class="facts__line">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="test">
+                    <div class="container">
+                        <div class="test__content">
+                            <button class="section__button test__button">
+                                <span class="section__button-text">Начать обучение</span>
+                                <img src="img/arrow3.png" alt="" class="section__button-img">
+                            </button>
+                            <p class="section__text test__text">Попробуйте, первые уроки бесплатны, но нужно пройти
+                                тестирование</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="support">
+                <div class="container support__container">
+                    <div class="support__content">
+                        <div class="support__content-wrapper">
+                            <div class="support__header">
+                                <img src="img/support.png" alt="" class="support__header-img">
+                            </div>
+                            <div class="support__main">
+                                <h2 class="section__title support__title">Помощь <br class="support__footer-line">
+                                    и поддержка</h2>
+                                <p class="section__text support__text support__text_first">Если в процессе обучения
+                                    возникнут сложности, вы
+                                    всегда сможете задать вопрос своему наставнику.</p>
+                                <p class="section__text support__text">Раз в несколько уроков вы будете получать большое
+                                    задание, которое нужно будет сдавать на проверку код-ревьюеру. Он внимательно изучит
+                                    ваш
+                                    код, найдет ошибки и поможет вам стать лучше.</p>
+                            </div>
+                            <div class="support__section">
+                                <img src="img/support2.png" alt="" class="support__section-img">
+                            </div>
+                            <div class="support__footer">
+                                <h2 class="section__title support__title">Методика <br class="support__footer-line">
+                                    обучения</h2>
+                                <p class="section__text support__text">Весь учебный материал структурирован по принципу
+                                    «спирального обучения». Сначала вы получаете базовые знания,
+                                    а затем на каждом витке спирали углубляетесь в изученные темы, доводя их понимание
+                                    до совершенства. Такой подход упрощает обучение и гарантирует, что вы не пропустите
+                                    ничего важного.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="cost" id="cost">
+                <div class="container cost__container">
+                    <h2 class="cost__title section__title">Стоимость обучения</h2>
+                    <div class="cost__content">
+                        <div class="cost__card">
+                            <img src="img/cost1.png" alt="" class="cost__card-img">
+                            <p class="cost__text section__text">Весь курс разбит на несколько блоков. Оплата поэтапная
+                                вы платите только за тот блок, который сейчас проходите.</p>
+                        </div>
+                        <div class="cost__card">
+                            <img src="img/cost2.png" alt="" class="cost__card-img">
+                            <p class="cost__text section__text">Любой из блоков вы можете оплатить в рассрочку</p>
+                        </div>
+                        <div class="cost__card">
+                            <img src="img/cost3.png" alt="" class="cost__card-img cost__card-img-last">
+                            <p class="cost__text section__text">Если передумаете учиться, то возврат можно оформить в
+                                любой момент. Возвращаем деньги за 3 рабочих дня.</p>
+                        </div>
+                    </div>
+                    <img src="img/phone.png" alt="" class="cost__img">
+                </div>
+            </div>
+            <section class="learning">
+                <div class="container ">
+                    <div class="learning__content">
+                        <ul class="learning__list">
+                            <li class="learning__list-item learning__list-item-heading">Блок</li>
+                            <li class="learning__list-item">Введение в программирование
+                            </li>
+                            <li class="learning__list-item">Основы программирования на Python
+                            </li>
+                            <li class="learning__list-item">Python, продвинутый уровень
+                            </li>
+                            <li class="learning__list-item">Сети + фреймворк Flask</li>
+                            <li class="learning__list-item">Базы данных</li>
+                            <li class="learning__list-item">Фреймворк Django
+                            </li>
+                            <li class="learning__list-item">Разработка «боевого» проекта </li>
+                            <li class="learning__list-item learning__list-item-heading-bottom">Итого</li>
+                        </ul>
+                        <table class="learning__table">
+                            <thead class="learning__table-head">
+                                <tr class="learning__table-head-row">
+                                    <td class="learning__table-head-data">Блок</td>
+                                    <td class="learning__table-head-data">Стоимость (₽)</td>
+                                    <td class="learning__table-head-data">Расчетное время обучения (мес.) *</td>
+                                </tr>
+                            </thead>
+                            <tbody class="learning__table-body">
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Введение в программирование
+                                    </td>
+                                    <td class="learning__table-body-data">Бесплатно</td>
+                                    <td class="learning__table-body-data">0.5</td>
+                                </tr>
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Основы программирования на Python
+
+                                    </td>
+                                    <td class="learning__table-body-data">9 900</td>
+                                    <td class="learning__table-body-data">1</td>
+                                </tr>
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Python, продвинутый уровень
+
+                                    </td>
+                                    <td class="learning__table-body-data">14 900</td>
+                                    <td class="learning__table-body-data">2.5</td>
+                                </tr>
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Сети + фреймворк Flask
+                                    </td>
+                                    <td class="learning__table-body-data">14 900</td>
+                                    <td class="learning__table-body-data">2.5</td>
+                                </tr>
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Базы данных
+                                    </td>
+                                    <td class="learning__table-body-data">14 900</td>
+                                    <td class="learning__table-body-data">2</td>
+                                </tr>
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Фреймворк Django
+
+                                    </td>
+                                    <td class="learning__table-body-data">14 900</td>
+                                    <td class="learning__table-body-data">2</td>
+                                </tr>
+                                <tr class="learning__table-body-row">
+                                    <td class="learning__table-body-data">Разработка «боевого» проекта
+                                    </td>
+                                    <td class="learning__table-body-data">9 900</td>
+                                    <td class="learning__table-body-data">1.5</td>
+                                </tr>
+                                <tr class="learning__table-body-row_last">
+                                    <td class="learning__table-body-data_last">Итого
+                                    </td>
+                                    <td class="learning__table-body-data_last">79 400</td>
+                                    <td class="learning__table-body-data_last">12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="learning__text">* если занятиям уделяется около <br class="learning__text-line"> 20
+                            часов в неделю</p>
+                    </div>
+                    <div class="learning__content" id="register">
+                        <div class="learning__wrapper">
+                            <img src="img/learning-img.png" alt="" class="learning__img">
+                            <p class="learning__wrapper-text">Все блоки проходятся строго по порядку. Пропустить
+                                какой-то блок или начать обучение с середины нельзя, даже если вы считаете, что уже
+                                знаете какую-то часть материала. Только так мы можем гарантировать, что вы получите все
+                                знания, предусмотренные учебной программой.</p>
+                            <button class="section__button learning__button">
+                                <span class="section__button-text">Начать обучение</span>
+                                <img src="img/arrow3.png" alt="" class="section__button-img">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="contacts">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__top">
+                        <div class="footer__top-logo">
+                            <a href="" class="footer__logo-link">
+                                <img src="img/footer-logo.png" alt="" class="footer__logo-img">
+                            </a>
+                            <p class="footer__top-text">Школа <br> программирования</p>
+                        </div>
+                        <div class="footer__top-social">
+                            <a href="" class="footer__social-link">
+                                <img src="img/instagram.png" alt="" class="footer__social-img">
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <img src="img/vk.png" alt="" class="footer__social-img">
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <img src="img/facebook.png" alt="" class="footer__social-img">
+                            </a>
+                            <a href="" class="footer__social-link">
+                                <img src="img/youtube.png" alt="" class="footer__social-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__center-desktop">
+                        <ul class="footer__list">
+                            <li class="footer__list-item">Чему вы научитесь</li>
+                            <li class="footer__list-item">Процесс обучения</li>
+                            <li class="footer__list-item">Стоимость</li>
+                            <li class="footer__list-item">Контакты</li>
+                            <li class="footer__list-item">Регистрация</li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-desktop">
+                        <ul class="footer__list footer__list-desktop">
+                            <li class="footer__list-item footer__list-item-number"><a class="footer__number" href="tel:+74993489396">+7 (499) 348 93 96</a></li>
+                            <li class="footer__list-item"><a class="footer__mail" href="mailto:info@ytyt.ru">info@ytyt.ru</a></li>
+                            <li class="footer__list-item footer__list-item-info footer__list-item-info_first">ИП Умаров Т. А.</li>
+                            <li class="footer__list-item footer__list-item-info">ИНН 745216229809</li>
+                            <li class="footer__list-item footer__list-item-info">ОГРНИП</li> 
+                            <li class="footer__list-item footer__list-item-info">315745200001358</li>
+                        </ul>
+                    </div>
+                    <div class="footer__center">
+                        <ul class="footer__list">
+                            <li class="footer__list-item">Чему вы научитесь</li>
+                            <li class="footer__list-item">Процесс обучения</li>
+                            <li class="footer__list-item">Стоимость</li>
+                            <li class="footer__list-item">Контакты</li>
+                            <li class="footer__list-item">Регистрация</li>
+                            <li class="footer__list-item"><a href="tel:+74993489396">+7 (499) 348 93 96</a></li>
+                            <li class="footer__list-item"><a href="mailto:info@ytyt.ru">info@ytyt.ru</a></li>
+                            <li class="footer__list-item">ИП Умаров Т. А.</li>
+                            <li class="footer__list-item">ИНН 745216229809 ОГРНИП </li>
+                            <li class="footer__list-item">315745200001358</li>
+                        </ul>
+                        <hr class="footer__line">
+                    </div>
+                    <div class="footer__bottom">
+                        <p class="footer__copyright">© 2023 ytyt — Все права защищены</p>
+                        <p class="footer__agreement">Пользовательское соглашение</p>
+                        <p class="footer__policy">Политика конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/links.js"></script>
+</body>
+
+</html>
